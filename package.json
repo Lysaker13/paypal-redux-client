@@ -4,7 +4,7 @@
   "description": "React Redux Webpack Babel Immutable",
   "main": "''",
   "scripts": {
-    "test": "./node_modules/jshint/bin/jshint hello.js",
+    "server:dev": "webpack-dashboard -- webpack-dev-server --env=dev --config webpack.conf.js --progress --profile --colors",
     "build": "webpack --env=prod --config webpack.conf.js --progress --profile --colors"
   },
   "repository": {
